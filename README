@@ -2,6 +2,8 @@ Thema:
 ======
 Peer to Peer Etherpad
 
+Entstanden ist das Projekt im Rahmen der Vorlesung "Peer2Peer-Systeme".
+
 Voraussetzungen:
 ================
 Geschrieben wurde das Projekt unter Linux in C++.
