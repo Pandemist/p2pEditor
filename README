@@ -1,0 +1,35 @@
+Thema:
+======
+Peer to Peer Etherpad
+
+Voraussetzungen:
+================
+Geschrieben wurde das Projekt unter Linux in C++.
+Da Posix Sockets verwendet wurden, ist das Programm auf Linux Systeme beschränkt.
+Darüber hinaus wird die "ncurses" Bibliothek benötigt.
+
+ncurses:
+========
+Bei ncurses handelt es sich um eine Bibliothek für ein Text User Interface auf dem Linux Terminal.
+
+Compiling:
+==========
+Zum Compilen steht ein Makefile zur Verfügung. Benötigt wird dazu der g++ Compiler und die installierte ncurses Bibliothek.
+
+Ausführung:
+===========
+Das Programm lässt sich auf 2 Varianten starten:
+1:
+
+>./client
+
+In dieser Form startet das Programm ein neues Etherpad
+
+2:
+
+>./client <IPv4> <Port>
+
+Bsp:
+>./client 127.0.0.1 38762
+
+In dieser Form verbindet man sich zum Peer mit den angegeben Daten und tritt dem jeweiligen Etherpad bei.
